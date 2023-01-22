@@ -20,6 +20,16 @@ The designs were created to the following widths:
 - Desaturated blue: hsl(224, 23%, 55%)
 - Dark blue: hsl(223, 47%, 23%)
 
+## HEX
+/* CSS HEX */
+--space-cadet: #272E53; - dark blue/purple
+--rhythm: #727999; - gray
+--ocean-blue: #493FAA; - purple
+--han-purple: #382AE1; - c blue
+--periwinkle-crayola: #D6E1FF; - periwinkle
+--ghost-white: #F8F9FE; - white
+
+
 ## Typography
 
 ### Body Copy
