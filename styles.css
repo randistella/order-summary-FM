@@ -7,14 +7,14 @@
 /* utility classes */
 html, body {
   font-family: 'Red Hat Display', sans-serif;
-  background: #333; /*change this to the background img*/
+  background: #d6e1ff;
 }
 
 #container {
   background: #fff;
   margin: 150px auto;
   max-width: 365px;
-  height: 560px;
+  height: 540px;
   border-radius: 20px;
 }
 
@@ -35,11 +35,13 @@ button {
   font-size: 13px;
   margin: 10px 40px 20px;
   line-height: 1.5em;
+  color: #727999;
 }
 
 .order-wrap h2 {
   text-align: center;
   margin: 30px 0px 10px 0; 
+  font-weight: 900;
 }
 
 .order-img img {
@@ -50,7 +52,7 @@ button {
 /* annual plan */
 .plan-wrap {
   display: block;
-  background: #f4f4f4;
+  background: #f8f9fe;
   width: 275px;
   height: 75px;
   margin: 0px auto;
@@ -71,9 +73,14 @@ button {
 .plan-text {
   display: block;
   float: left;
-  margin: 8px 0px 0px 8px;
-  font-size: 12px;
+  margin: 7px 0px 0px 8px;
+  font-size: 13px;
   line-height: 1.6em;
+}
+
+.plan-text p {
+  color: ≈
+
 }
 
 .change {
@@ -88,16 +95,53 @@ button {
   cursor: pointer;
 }
 
+.change a:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #493faa
+}
+
 .clr {
   clear: both;
 }
 
 /* proceed to payment */
 .payment-btn {
-  margin: 10px 0px 5px 0px;
+  margin: 20px 0px 10px 0px;
+  
+}
+
+.payment-btn button {
+  background-color: #382AE1;
+  color: #fff;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.payment-btn button:hover {
+  background-color: #493FAA;
+  color: #fff;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  box-shadow: -11px 5px 16px 3px rgba(0,0,0,0.11);
+  -webkit-box-shadow: -11px 5px 16px 3px rgba(0,0,0,0.11);
+  -moz-box-shadow: -11px 5px 16px 3px rgba(0,0,0,0.11);
 }
 
 /* cancel order */
 .cancel-btn {
   margin: 10px 0px 30px 0px;
+}
+
+.cancel-btn button {
+  background-color: #fff;
+  color: #333;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 700;
+}
+
+.cancel-btn button:hover {
+  color: #444;
 }
