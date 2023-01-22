@@ -32,8 +32,8 @@ button {
 .order-wrap p {
   text-align: center;
   font-weight: 500px;
-  font-size: 14px;
-  margin: 15px 15px;
+  font-size: 13px;
+  margin: 10px 40px 20px;
   line-height: 1.5em;
 }
 
@@ -52,7 +52,7 @@ button {
   display: block;
   background: #f4f4f4;
   width: 275px;
-  height: 80px;
+  height: 75px;
   margin: 0px auto;
   border-radius: 10px;
   padding: 10px;
@@ -61,23 +61,26 @@ button {
 .icon {
   display: block;
   float: left;
-  margin: 10px;
-  size: 30px;
+  margin: 7px;
+}
+
+.icon img {
+  height: 40px;
 }
 
 .plan-text {
   display: block;
   float: left;
-  margin: 13px 0px 0px 2px;
+  margin: 8px 0px 0px 8px;
   font-size: 12px;
-  line-height: 1.5em;
+  line-height: 1.6em;
 }
 
 .change {
   display: block;
   float: right;
   margin: 22px 10px 0px 0px;
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .change a {
